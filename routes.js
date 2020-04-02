@@ -1,6 +1,6 @@
 var express = require('express'),
 router = express.Router(),
-itemCtrl = require('./user-controller');
+userCtrl = require('./user-controller');
 
 router.post('/users', userCtrl.createUser);
 router.get('/users', userCtrl.getUsers);
