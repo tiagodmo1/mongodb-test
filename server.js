@@ -6,7 +6,7 @@ bodyParser = require("body-parser"),
 mongoose = require('mongoose');
 
 var app = express();
-var port = 3000;
+var port = 5000;
 var userCtrl = require('./user-controller');
 
 app.use(logger('dev'));
